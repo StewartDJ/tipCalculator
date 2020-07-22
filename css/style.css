@@ -1,0 +1,37 @@
+.container{
+    width: 700px;
+   
+    
+    
+}
+#contents {
+    margin: 20px 20px 
+}
+
+#tipAmount{
+    color: white;
+    font-size: 75px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Alfa Slab One'
+}
+
+p {
+    color: white;
+    word-wrap: break-word;
+    max-width: 500px;
+}
+#box {
+    
+width: 700px;
+   border: 5px solid white; 
+   background-color: black;
+}
+
+body {
+    background-attachment:fixed;
+    background: url("https://wallpapercave.com/wp/wp1810171.png")
+    
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel ="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/c4e8494b63.js"></script>
+    <script src="https://kit.fontawesome.com/9192cebf46.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   
+    <embed src="./audio/temshop.mp3" loop="true" autostart="true" width="2"
+         height="0">
+
+<div class = "container">
+
+   
+    <div id ="image">
+<img src = "images/Undertale_temmie.PNG.png" width="700px">
+
+
+        <div id = "box">
+            <div id ="contents">  
+        <center>
+
+
+        <h1><p>Tips - Help Tem Pay for Colleg?</p></h1>
+        <br>
+
+<form>
+        <p> Bill Amount </p>
+        <p>
+        <input type="text" id ="bill" value ="">
+        </p> 
+        
+        <br>
+        <p> Tip Percentage</p>
+        <p>
+
+        <select name="" id="tipping">
+
+<option selected disabled value ="0">Tip %</option>
+<option value = "1">100% - Great Service</option>
+<option value = "0.5">50% - Average Service</option>
+<option value = "0.05"> 5% - Poor Service</option>
+</select></p>
+<br>
+<p>Number of People Splitting Bill</p>
+<p><input id ="people" type="text" value =""></input> </p> <br>
+<button type="button" class="btn btn-light" onCLick="calculateTip()">Take My Muns</button>
+
+
+</form>
+
+<div id ="tipAmount">
+
+</div>
+
+</center>
+</div>
+</div>
+</div></div>
+</div>
+    <script src= "./js/app.js"></script>
+</body>
+</html>
