@@ -28,3 +28,12 @@ document.getElementById('tipAmount').innerHTML = postHTML;
 }
 
 
+if (typeof new Audio().loop == 'bo') {
+    audioToLoop = document.getElementById('music');
+    audioToLoop.addEventListener('ended', function () {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+}
+
+
